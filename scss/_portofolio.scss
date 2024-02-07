@@ -1,0 +1,23 @@
+section#portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: $background-color;
+}
+
+.company{
+  flex: 0 0 300px;
+  margin: 10px;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid $gray-color;
+  border-radius: 8px;
+}
+
+.company img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
